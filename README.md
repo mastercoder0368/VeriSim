@@ -1,4 +1,4 @@
-# TruthSim: Truth-Preserving Noisy Patient Simulator
+# VeriSim: Truth-Preserving Noisy Patient Simulator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -9,7 +9,7 @@
 
 Medical LLMs achieve impressive performance on standardized benchmarks, yet these evaluations fail to capture the complexity of real clinical encounters where patients exhibit memory gaps, limited health literacy, anxiety, and other communication barriers.
 
-**TruthSim** addresses this gap by providing:
+**VeriSim** addresses this gap by providing:
 - 🎭 **Realistic Patient Simulation**: Six clinically-grounded noise dimensions
 - ✅ **Truth Preservation**: Hybrid UMLS-LLM verification prevents hallucinations
 - 🎛️ **Controllable Noise**: Fine-grained control over patient communication barriers
@@ -40,8 +40,8 @@ Medical LLMs achieve impressive performance on standardized benchmarks, yet thes
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/truthsim.git
-cd truthsim
+git clone https://github.com/your-username/VeriSim.git
+cd VeriSim
 ```
 
 ### 2. Create virtual environment
@@ -145,7 +145,7 @@ python scripts/evaluate.py \
 ## Project Structure
 
 ```
-truthsim/
+VeriSim/
 ├── config/
 │   ├── config.yaml          # Hyperparameters
 │   └── models.yaml          # Model configurations
